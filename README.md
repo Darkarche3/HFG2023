@@ -19,6 +19,9 @@ From there, one can proceed to explore the projects, profile, and collaborations
 # Project Description
 Global Connect is a **one-stop projects crowdsourcing repository**, enabling registered companies to share social initaitives that they are organising and garner partners and participants.  Projects are displayed in a list format, organised by categories. Signing up is fast and straightforward, and participants can easily reach out to organisers via email to enquire more about specific projects of interest. Drawing together a wide variety of companies, each is able to contribute resources and skills from their field of expertise to help **"solve each other's problems"** and execute successful projects that affect real change to their target beneficiaries.
 
+#Projects, Profiles, User Authentication
+Visitors can register for projects they would like to contribute to at the bottom of the respective pages. Their particulars are saved into the website's in-built admin system, which stores information on all projects, participants, categories and locations currently hosted on the server. Prior user authentication ensures that only registered members can sign up for projects.
+
 # Collaborations
 
 Our key feature is the **collaborations page**, where a visitor can see at a glance **all shared projects** between any two parties. This is useful in enabling companies to keep track of all ongoing partnerships, identify companies with whom they share many common goals with, and even extend invitations to those they would not have noticed otherwise. Individual profile pages also enable visitors to learn more about a company's available projects, areas of business, and past collaborations.
