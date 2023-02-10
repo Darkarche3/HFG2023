@@ -4,7 +4,7 @@ Repository containing code used in the Hack For Good 2023 Hackathon organised by
 Special thanks to my collaborators, Suraj Bantwal, Chin Yan Xu, and Teo Hui Qian, for bringing this project to life.
 
 # How To Access 
-The main project folder can be found in u4g_project_pages.zip. Set the directory of your local terminal to the extracted folder and run the command
+The main project folder can be found in **u4g_project_pages_final.zip**. Set the directory of your local terminal to the extracted folder and run the command
 
 `python manage.py runserver`
 
