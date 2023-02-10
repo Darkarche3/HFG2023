@@ -2,17 +2,18 @@
 Repository containing code used in the Hack For Good 2023 Hackathon organised by DSC @ NUS Computing.
 
 # How To Access 
-The main project files can be found in u4g_project_pages_v2.zip. Open the folder in your local terminal or code editor (e.g. VS Code) and run the command
+The main project folder can be found in u4g_project_pages.zip. Set the directory of your local terminal to the extracted folder and run the command
 
-python manage.py runserver
+`python manage.py runserver`
 
-Access the link generated to explore the projects, profile, and collaborations pages. To access the admin panel, replace /projects with /admin in the website's URL. To login, one can use the credentials below:
+Ctrl + Click the development server hyperlink generated to access the index page.
+From there, one can proceed to explore the projects, profile, and collaborations pages. To access the sign-up page, add "/signup" to the back of the index website URL. To access the admin panel, replace `"/projects"` with `"/admin"` in the website's URL. To login, one can use the credentials below:
 
-User: h4g2023
-Pass: unicornsforgood
+`User: h4g2023`
+`Pass: unicornsforgood`
 
 # Project Description
-Global Connect is a one-stop project crowdsourcing repository, enabling registered companies to share social initaitives that they are organising and garner partners and participants.  Projects are displayed in a list format, organised by categories. Signing up is fast and straightforward, and participants can easily reach out to organisers via email to enquire more about specific projects of interest. Drawing together a wide variety of companies, each is able to contribute resources and skills from their field of expertise to help "solve each other's problems" and execute successful projects that affect real change to their target beneficiaries.
+Global Connect is a **one-stop projects crowdsourcing repository**, enabling registered companies to share social initaitives that they are organising and garner partners and participants.  Projects are displayed in a list format, organised by categories. Signing up is fast and straightforward, and participants can easily reach out to organisers via email to enquire more about specific projects of interest. Drawing together a wide variety of companies, each is able to contribute resources and skills from their field of expertise to help **"solve each other's problems"** and execute successful projects that affect real change to their target beneficiaries.
 
 # Collaborations
 
