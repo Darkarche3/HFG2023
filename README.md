@@ -17,11 +17,11 @@ Global Connect is a **one-stop projects crowdsourcing repository**, enabling reg
 
 # Collaborations
 
-Our key feature is the collaborations page, where a visitor can see at a glance all ongoing partnerships between any two parties. This is useful in enabling companies to keep track of all ongoing partnerships, identify companies with whom they share many common goals with, and even extend invitations to those they would not have noticed otherwise. Individual profile pages also enable visitors to learn more about a company's available projects, areas of business, and past collaborations.
+Our key feature is the **collaborations page**, where a visitor can see at a glance **all shared projects** between any two parties. This is useful in enabling companies to keep track of all ongoing partnerships, identify companies with whom they share many common goals with, and even extend invitations to those they would not have noticed otherwise. Individual profile pages also enable visitors to learn more about a company's available projects, areas of business, and past collaborations.
 
 # Admin Panel
-From the admin panel, one can view all existing projects, participants, and categories. CRUD operations can be performed seamlessly and immediately refleccted on the site. Social Innovation Park is thus able to manage and follow up with registered participants and companies, as well as ensure that crucial project details and information is not compromised or stolen.
+From the admin panel, one can **view all existing projects, participants, and categories.** **CRUD operations can be performed seamlessly** and immediately refleccted on the site. Social Innovation Park is thus able to manage and follow up with registered participants and companies, as well as ensure that crucial project details and information is not compromised or stolen.
 
 # Conclusion
 
-Together, the Global Connect website offers a strong starting point for building a tech-for-good ecosystem to explore innovative social initiatives that span across multiple disciplines, and foster collaborations across all registered members, making the site a platform of choice for any company hoping to make a difference in the lives of the underprivileged.
+Together, the Global Connect website offers a strong starting point for **building a tech-for-good ecosystem to explore innovative social initiatives that span across multiple disciplines, and foster collaborations across all registered members**, making the site a platform of choice for any company hoping to make a difference in the lives of the underprivileged.
