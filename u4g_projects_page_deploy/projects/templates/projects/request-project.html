@@ -1,0 +1,39 @@
+
+{% extends 'projects/base/base.html' %}
+
+{% load static %}
+
+{% block title %}All Projects {% endblock %}
+
+{% block site_css %}
+    <link rel = "stylesheet" href = " {% static 'projects/styles/all-projects.css' %}">
+    <link rel = "stylesheet" href = "{% static 'projects/styles/project-detail.css' %}">
+{% endblock %}
+
+{% block main_heading %}
+Request a new Project!
+{% endblock %}
+
+{% block header_content %}
+Your idea could be the next big thing.
+{% endblock %}
+
+{% block body %}
+<article>
+<section id = "registration"> 
+    <h2> Project Request Form </h2>
+    <form action = "{% url 'request-success'  %}" method = POST>
+        {% csrf_token %} 
+        <!--- Cross Server Reference token. Guards against forgery attacks. ---> 
+        
+    <ul>
+        {{form.as_ul}}
+    </ul>
+    <div id = "registration-actions">
+        <button > Register </button>
+    </div>
+    </form>
+</section>
+</article>
+
+{% endblock %}

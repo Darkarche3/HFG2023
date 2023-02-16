@@ -1,0 +1,31 @@
+{% extends 'projects/base/base.html' %}
+
+{% load static %}
+
+{% block title %}All Projects {% endblock %}
+
+{% block site_css %}
+    <link rel = "stylesheet" href = " {% static 'projects/styles/all-projects.css' %}">
+{% endblock %}
+
+{% block main_heading %}
+We got great projects coming up!
+{% endblock %}
+
+{% block header_content %}
+<p>Join us in making a difference.</p>
+{% endblock %}
+
+{% block body %}
+<section>
+    <h2>Upcoming Projects</h2>
+    <aside>
+        <span> <a href = "/projects/request-project" class = "btn"> Request New Project </a>  <a href = "/projects/collaborations" class = "btn"> View Collaborations </a>  <a href = "/projects/ascezell" class = "btn"> View Personal Profile </a> </span>
+    </aside>
+    <ol>
+        {%for project_item in projects %}
+        {% include 'projects/includes/project-item.html' with title=project_item.title image=project_item.image.url location=project_item.location category=project_item.category slug=project_item.slug%}
+        {% endfor %}
+    </ol>
+</section>
+{% endblock %}

@@ -1,0 +1,89 @@
+article {
+    max-width: 60rem;
+    margin: 5rem auto;
+    border-radius: 6px;
+    background: linear-gradient(#0751f2, #cf0e95);
+    border: 4px solid #120eff;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #main-image {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    position: absolute;
+    top: -5rem;
+    left: calc(50% - 5rem);
+    border-radius: 50%;
+    border: 4px solid #350490;
+  }
+  
+  section:first-of-type {
+    margin-top: 6rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  address span {
+    font-weight: bold;
+    color: rgb(255, 91, 2);
+  }
+  
+  #details h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  #details > p {
+    color: #f9feff;
+    padding: 1rem;
+    border-radius: 4px;
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  #details footer {
+    color: #03ffea;
+  }
+  
+  #details footer a {
+    color: #ffb908;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #registration ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #registration label {
+    font-weight: bold;
+    color: #ff8888;
+    margin-right: 1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  #registration input {
+    font: inherit;
+    width: 40%;
+    background-color: #ebeaee;
+    border: 1px solid #4b4753;
+    border-radius: 4px;
+    padding: 0.25rem;
+  }
+  
+  #registration-actions {
+    margin-top: 1.5rem;
+  }
+  
+  #registration .errorlist {
+    margin-bottom: 0.5rem;
+    color: #880824;
+  }

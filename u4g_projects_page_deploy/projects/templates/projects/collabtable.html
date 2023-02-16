@@ -1,0 +1,29 @@
+{% extends 'projects/base/base.html' %}
+{% load static %}
+
+{% block title %}
+<title> Collaborations </title>
+{% endblock %}
+
+{% block site_css %}
+<link rel = "stylesheet" href = " {% static 'projects/styles/all-projects.css' %}">
+
+{% endblock %}
+
+{% block main_heading %}
+<header> Shared Projects between {{member_1.name}} and {{member_2.name}}  </header>
+{% endblock %}
+
+{% block body %}
+<article>
+    <section>
+<ol>
+    {%for project_item in projects %}
+    {% include 'projects/includes/project-item.html' with title=project_item.title image=project_item.image.url location=project_item.location category=project_item.category slug=project_item.slug%}
+    {% endfor %}
+</ol>
+</section>
+</article>
+
+
+{% endblock %}

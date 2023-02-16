@@ -1,0 +1,25 @@
+{% extends 'projects/base/base.html' %}
+
+{% load static %}
+
+{%block title %} You registered successfully! {% endblock %}
+
+{% block site_css %}
+<link rel = "stylesheet" href = "{% static 'projects/styles/registration-confirmation.css' %}">
+{% endblock %}
+
+{% block main_heading %} Thanks for signing up! {% endblock %}
+
+{% block body %}
+
+<section id = "confirmation">
+    <h2>Your project request has been submitted successfully.</h2>
+    <p> Our team will be in touch! </p>
+</section>
+
+<section id = "continue">
+    <p>Explore other projects in the meantime!</p>
+    <p> <a href = "/projects" class = "btn"> Explore our Projects </a></p>
+
+{% endblock %}
+</section>

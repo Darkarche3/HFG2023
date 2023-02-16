@@ -1,0 +1,36 @@
+{% extends 'projects/base/base.html' %}
+{% load static %}
+
+{% block title %}
+<title> Collaborations </title>
+{% endblock %}
+
+{% block site_css %}
+    <link rel = "stylesheet" href = "{% static 'projects/styles/all-projects.css' %}">
+    <link rel = "stylesheet" href = "{% static 'projects/styles/registration-confirmation.css' %}">
+    <link rel = "stylesheet" href = "{% static 'projects/styles/project-detail.css' %}">
+{% endblock %}
+
+{% block main_heading %}
+<header> View shared projects! </header>
+{% endblock %}
+
+{% block body %}
+<article>
+<section id = "registration input">
+    <h3>Select two participants:</h3>
+        <form action = "{% url 'collabtable' %}" method = "POST">
+            {% csrf_token %} 
+            <!--- Cross Server Reference token. Guards against forgery attacks. ---> 
+            
+        <ul>
+            {{form}}
+        </ul>
+        <div id = "registration-actions">
+            <button> Register </button>
+        </div>
+        </form>
+</section>
+</article>
+
+{% endblock %}
