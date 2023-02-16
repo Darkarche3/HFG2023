@@ -6,7 +6,9 @@ Special thanks to my collaborators, **Suraj Bantwal, Chin Yan Xu, and Teo Hui Qi
 You may follow along with a demo of this website at https://youtu.be/YJfrbkQapUM
 
 # How To Access 
-The main project folder can be found in **u4g_projects_page_final.zip**. Set the directory of your local terminal to the extracted folder and run the command
+View the live site at https://dolphin-app-h93ez.ondigitalocean.app/
+
+Alternatively, the main project folder can be found in **u4g_projects_page_final.zip**. Set the directory of your local terminal to the extracted folder and run the command
 
 `python manage.py runserver`
 
